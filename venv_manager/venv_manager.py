@@ -74,10 +74,10 @@ if __name__ == "__main__":
     create_venv(venv_name[0])
   elif args.create_venv_by_req:
     venv_name, req_txt_file = args.create_venv_by_req
-    create_venv_by_req(venv_name[0], req_txt_file[0])
+    create_venv_by_req(venv_name, req_txt_file)
   elif args.create_req_by_venv:
     req_txt_file, venv_name = args.create_req_by_venv
-    create_req_by_venv(req_txt_file[0], venv_name[0])
+    create_req_by_venv(req_txt_file, venv_name)
   elif args.delete_venv:
     venv_name = args.delete_venv
     delete_venv(venv_name[0])
