@@ -11,7 +11,7 @@ setup(
     packages=['venv_manager'],
     entry_points={
         'console_scripts': [
-            'acb_venv_manager = acb_venv_manager.venv_manager:__main__',
+            'venv_manager = venv_manager.venv_manager:__main__',
         ],
     },
 )
